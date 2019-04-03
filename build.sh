@@ -37,7 +37,6 @@ function prepare_files
 
     cp bin/${BIN_NAME} ${OUTPUT_DIR}/bin/${BIN_FILE_NAME} #拷贝结果到程序目录中
     cp $CONTROL_SCRIPT ${OUTPUT_DIR}/bin/
-    cp ./resource/jdres/ResourceSpecification.json ${OUTPUT_DIR}/bin/resource/jdres/
 
     rm -rf "./src/"
 
